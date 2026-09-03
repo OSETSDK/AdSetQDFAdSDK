@@ -6,11 +6,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AdSetQDFAdSDK/AdSetQDFProtocol.h>
+#import <AdSetQDFAdSDK/AdSetQDFAdProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AdSetQDFNativeExpressAdView : UIView<AdSetQDFProtocol>
+@interface AdSetQDFNativeExpressAdView : UIView<AdSetQDFAdProtocol>
 /**
  * 是否渲染完毕
  */

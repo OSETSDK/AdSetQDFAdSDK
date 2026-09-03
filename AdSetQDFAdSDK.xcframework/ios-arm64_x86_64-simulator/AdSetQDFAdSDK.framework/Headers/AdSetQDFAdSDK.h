@@ -2,7 +2,7 @@
 //  AdSetQDFAdSDK.h
 //  AdSetQDFAdSDK
 //
-//  Created by AustinYang on 2026/6/11.
+//  Created by AustinYang on 2025/7/16.
 //
 
 #import <Foundation/Foundation.h>
@@ -14,8 +14,9 @@ FOUNDATION_EXPORT double AdSetQDFAdSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char AdSetQDFAdSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AdSetQDFAdSDK/PublicHeader.h>
+
 #import <AdSetQDFAdSDK/AdSetQDFAdSDKManager.h>
-#import <AdSetQDFAdSDK/AdSetQDFProtocol.h>
+#import <AdSetQDFAdSDK/AdSetQDFAdProtocol.h>
 #import <AdSetQDFAdSDK/AdSetQDFSplashAd.h>
 #import <AdSetQDFAdSDK/AdSetQDFRewardVideoAd.h>
 #import <AdSetQDFAdSDK/AdSetQDFInterstitialAd.h>

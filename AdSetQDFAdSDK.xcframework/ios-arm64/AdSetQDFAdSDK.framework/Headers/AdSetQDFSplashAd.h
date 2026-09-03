@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AdSetQDFAdSDK/AdSetQDFProtocol.h>
+#import <AdSetQDFAdSDK/AdSetQDFAdProtocol.h>
 
 @class AdSetQDFSplashAd;
 @protocol AdSetQDFSplashAdDelegate <NSObject>
@@ -59,7 +59,7 @@
 
 @end
 
-@interface AdSetQDFSplashAd : NSObject<AdSetQDFProtocol>
+@interface AdSetQDFSplashAd : NSObject<AdSetQDFAdProtocol>
 /**
  *  委托对象
  */
@@ -84,6 +84,11 @@
  */
 - (void)loadAd;
 
+
+- (void)loadAdWithServerBid;
+
+- (NSString *)getServerBidInfo;
+
 /**
  * 返回广告是否可展示
  * 对于并行请求，在调用showAdInWindow前时需判断下
@@ -96,6 +101,8 @@
  *  详解：广告展示成功时会回调splashAdSuccessPresentScreen方法，展示失败时会回调splashAdFailToPresent方法
  */
 - (void)showAdInWindow:(UIWindow *)window;
+
+- (void)showAdInWindow:(UIWindow *)window bidInfo:(NSString *)bidInfo;
 
 /**
  返回广告的eCPM，单位：分

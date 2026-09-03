@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/AdSetQDFAdProtocol.h</key>
+		<data>
+		qtYyXCR9UF+b3DmPx09s9RcR/ew=
+		</data>
 		<key>Headers/AdSetQDFAdSDK.h</key>
 		<data>
-		xSHiIq7RXng3noY6EOfy9a6gt1c=
+		xURaCW7/03xlEM+abTi4TQ0rS+U=
 		</data>
 		<key>Headers/AdSetQDFAdSDKManager.h</key>
 		<data>
@@ -14,15 +18,15 @@
 		</data>
 		<key>Headers/AdSetQDFBannerView.h</key>
 		<data>
-		SBfKwhNAuqJ9Ol3fyHYJHDgjYhA=
+		CDaakSB+KEbj7X1wtYloP73v/YI=
 		</data>
 		<key>Headers/AdSetQDFInterstitialAd.h</key>
 		<data>
-		Lzx0ntPKYgnZAsCcSTWoLf9jH/I=
+		7IGsLoSQchP3L7q0W1o6RiV7shE=
 		</data>
 		<key>Headers/AdSetQDFNativeAd.h</key>
 		<data>
-		2TW+qbZRIUlparyz29Mjg1kXgxs=
+		7TpQqkVsHS4vAWei12R4vLseRUA=
 		</data>
 		<key>Headers/AdSetQDFNativeAdDataObject.h</key>
 		<data>
@@ -38,19 +42,15 @@
 		</data>
 		<key>Headers/AdSetQDFNativeExpressAdView.h</key>
 		<data>
-		QARUMob+qi5A32UKPbKts9uBfLM=
-		</data>
-		<key>Headers/AdSetQDFProtocol.h</key>
-		<data>
-		HV4BGN/vmsREIZ7wPFf1LvVUeJ8=
+		4sh4DF8sUnwAxcV6SvpsQQ0wPjQ=
 		</data>
 		<key>Headers/AdSetQDFRewardVideoAd.h</key>
 		<data>
-		UaGUv4tmA8j8bRgLEKfiey0XbQY=
+		ByVidlMXV2qJJT32N52dMQSBkpY=
 		</data>
 		<key>Headers/AdSetQDFSplashAd.h</key>
 		<data>
-		4xNYczaOsEWaQ4l6GgQKuY2869Y=
+		UTt55nMV9xrmowZdt1rvXcNWles=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -63,15 +63,26 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/AdSetQDFAdProtocol.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qtYyXCR9UF+b3DmPx09s9RcR/ew=
+			</data>
+			<key>hash2</key>
+			<data>
+			bki6WVSbQZ8wbYdFaaNJ9jARJjNt8l6luZfPUDNfVF0=
+			</data>
+		</dict>
 		<key>Headers/AdSetQDFAdSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xSHiIq7RXng3noY6EOfy9a6gt1c=
+			xURaCW7/03xlEM+abTi4TQ0rS+U=
 			</data>
 			<key>hash2</key>
 			<data>
-			GLCHiG8efI37xqpZgsIDkqCS9iGBrC+49vBO2UYbTr8=
+			bz3nb2fkc8eYaaUGdHRV+detCRIe7Oow/x52R8nl5LY=
 			</data>
 		</dict>
 		<key>Headers/AdSetQDFAdSDKManager.h</key>
@@ -89,33 +100,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SBfKwhNAuqJ9Ol3fyHYJHDgjYhA=
+			CDaakSB+KEbj7X1wtYloP73v/YI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3JgTKhcy2HnLOVagm+Ixm8WjN3C3YFnd3lgc43UUOrM=
+			l+I+z7MBw9N2GuHV5tDOpHgE6qsXWtjBtxHMFxNOgWk=
 			</data>
 		</dict>
 		<key>Headers/AdSetQDFInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Lzx0ntPKYgnZAsCcSTWoLf9jH/I=
+			7IGsLoSQchP3L7q0W1o6RiV7shE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VuYL6zY5jWsS548p5WnvWCdHpsoSmWHBej3zJbwNyyY=
+			km+YdoIlrdGdFnnAZdcUmKUnC1bRXtGNhS+HKTnaLlc=
 			</data>
 		</dict>
 		<key>Headers/AdSetQDFNativeAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2TW+qbZRIUlparyz29Mjg1kXgxs=
+			7TpQqkVsHS4vAWei12R4vLseRUA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4YI7BQD0XblpLYY5v5PWdpWDENm2oTJfISYSv22e4RU=
+			qhNZcnMQDTA1iNO+t7vcTTxw0d9uavuhEUDKqRwsF4k=
 			</data>
 		</dict>
 		<key>Headers/AdSetQDFNativeAdDataObject.h</key>
@@ -155,44 +166,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QARUMob+qi5A32UKPbKts9uBfLM=
+			4sh4DF8sUnwAxcV6SvpsQQ0wPjQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			prIXLmQWg9XWHfPE+M8ngNmTD6Hdl4zT/vPvb69HITQ=
-			</data>
-		</dict>
-		<key>Headers/AdSetQDFProtocol.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HV4BGN/vmsREIZ7wPFf1LvVUeJ8=
-			</data>
-			<key>hash2</key>
-			<data>
-			M5HmCU360LPP1yyUZdsPE1+gqFR8N+nYa+jxEaj3s7o=
+			H2dBCu+Rhh8WMeO3FasFDVdLN0G6pbH/gY12mPkDy1s=
 			</data>
 		</dict>
 		<key>Headers/AdSetQDFRewardVideoAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UaGUv4tmA8j8bRgLEKfiey0XbQY=
+			ByVidlMXV2qJJT32N52dMQSBkpY=
 			</data>
 			<key>hash2</key>
 			<data>
-			yjlsgYOMfd3tj8NTgSW3J3CFTYLv86qbgnYi/Afi35A=
+			f5ALHGU3DDkqWoQpJDyccwIIjKywqK/+ZNuZ4tVJ1sY=
 			</data>
 		</dict>
 		<key>Headers/AdSetQDFSplashAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4xNYczaOsEWaQ4l6GgQKuY2869Y=
+			UTt55nMV9xrmowZdt1rvXcNWles=
 			</data>
 			<key>hash2</key>
 			<data>
-			xYSvwuXA4y4giDGrkjK/yJiDAyLuewrzoTKB1EzD6bI=
+			tdfpQxPhNPJv4GCLN87YrY1V9e30OyQvWFVsDunTv3Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

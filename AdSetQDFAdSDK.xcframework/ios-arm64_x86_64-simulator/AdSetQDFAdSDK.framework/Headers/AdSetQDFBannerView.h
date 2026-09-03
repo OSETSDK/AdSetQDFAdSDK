@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AdSetQDFAdSDK/AdSetQDFProtocol.h>
+#import <AdSetQDFAdSDK/AdSetQDFAdProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -45,7 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface AdSetQDFBannerView : UIView<AdSetQDFProtocol>
+@interface AdSetQDFBannerView : UIView<AdSetQDFAdProtocol>
 /**
  *  委托 [可选]
  */

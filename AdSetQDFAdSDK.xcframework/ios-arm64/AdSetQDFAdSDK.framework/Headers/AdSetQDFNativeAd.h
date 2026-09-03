@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AdSetQDFAdSDK/AdSetQDFNativeAdDataObject.h>
-#import <AdSetQDFAdSDK/AdSetQDFProtocol.h>
+#import <AdSetQDFAdSDK/AdSetQDFAdProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -38,9 +38,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)AdSetQDF_nativeAdWillDismissFullScreenModal:(AdSetQDFNativeAd *)nativeAd;
 
+/**
+ 广告关闭回调
+
+ @param nativeAd AdSetQDFNativeAd 实例
+ */
+- (void)AdSetQDF_nativeAdViewClosed:(AdSetQDFNativeAd *)nativeAd;
+
 @end
 
-@interface AdSetQDFNativeAd : NSObject<AdSetQDFProtocol>
+@interface AdSetQDFNativeAd : NSObject<AdSetQDFAdProtocol>
 
 /**
  Ad material.

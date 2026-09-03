@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <AdSetQDFAdSDK/AdSetQDFProtocol.h>
+#import <AdSetQDFAdSDK/AdSetQDFAdProtocol.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface AdSetQDFInterstitialAd : NSObject<AdSetQDFProtocol>
+@interface AdSetQDFInterstitialAd : NSObject<AdSetQDFAdProtocol>
 
 /**
  *  委托对象
