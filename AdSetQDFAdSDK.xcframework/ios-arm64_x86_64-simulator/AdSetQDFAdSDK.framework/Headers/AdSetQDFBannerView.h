@@ -71,12 +71,25 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)loadAdAndShow;
 
+- (NSString *)getServerBidTokenWithRequestId:(NSString *)requestId;
+
+- (void)loadAdWithServerBidToken: (NSString *)bidToken;
+
+/**
+ *  广告是否有效，以下情况会返回NO，建议在展示广告之前判断，否则会影响计费或展示失败
+ *  a.广告未拉取成功
+ *  b.广告已经曝光过
+ *  c.广告过期
+ */
+@property (nonatomic, getter=isAdValid, readonly) BOOL adValid;
+
 /**
  返回广告的eCPM，单位：分
  
  @return 成功返回一个大于等于0的值，-1表示无权限或后台出现异常
  */
 - (NSInteger)eCPM;
+
 @end
 
 NS_ASSUME_NONNULL_END

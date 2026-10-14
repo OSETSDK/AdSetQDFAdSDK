@@ -59,6 +59,18 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)loadAdData;
 
+- (NSString *)getServerBidTokenWithRequestId:(NSString *)requestId;
+
+- (void)loadAdWithServerBidToken: (NSString *)bidToken;
+
+/**
+ *  广告是否有效，以下情况会返回NO，建议在展示广告之前判断，否则会影响计费或展示失败
+ *  a.广告未拉取成功
+ *  b.广告已经曝光过
+ *  c.广告过期
+ */
+@property (nonatomic, getter=isAdValid, readonly) BOOL adValid;
+
 /**
  *  广告展示方法
  *  详解：[必选]发起展示广告请求, 必须传入用于显示插播广告的UIViewController

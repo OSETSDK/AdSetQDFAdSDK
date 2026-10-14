@@ -39,6 +39,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, readonly) NSString *placementId;
 
+- (NSString *)getServerBidTokenWithRequestId:(NSString *)requestId;
+
+- (void)loadAdWithServerBidToken: (NSString *)bidToken;
+
 @end
 
 NS_ASSUME_NONNULL_END

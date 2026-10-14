@@ -70,6 +70,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic, readonly) __kindof UIView *videoView;
 
 /**
+ *  广告是否有效，以下情况会返回NO
+ *  a.广告过期
+ *  b.广告已曝光
+ */
+@property (nonatomic, readonly) BOOL isAdValid;
+
+/**
  @warning 需要注意的是 该方法需要避免重复多次调用的情况
  @warning 当广告不需要展示并且销毁的时候，需要调用 -[AdSetQDFNativeAd unregisterView]方法，即registerContainer方法需要与unregisterView方法成对调用
  

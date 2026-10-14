@@ -85,9 +85,9 @@
 - (void)loadAd;
 
 
-- (void)loadAdWithServerBid;
+- (NSString *)getServerBidTokenWithRequestId:(NSString *)requestId;
 
-- (NSString *)getServerBidInfo;
+- (void)loadAdWithServerBidToken: (NSString *)bidToken;
 
 /**
  * 返回广告是否可展示

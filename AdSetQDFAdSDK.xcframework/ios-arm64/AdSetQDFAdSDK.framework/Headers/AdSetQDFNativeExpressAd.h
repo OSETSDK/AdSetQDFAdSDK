@@ -85,6 +85,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)loadAd;
 
+- (NSString *)getServerBidTokenWithRequestId:(NSString *)requestId;
+
+- (void)loadAdWithServerBidToken: (NSString *)bidToken;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -115,6 +115,12 @@ NS_ASSUME_NONNULL_BEGIN
  加载广告方法
  */
 - (void)loadAd;
+
+- (NSString *)getServerBidTokenWithRequestId:(NSString *)requestId;
+
+- (void)loadAdWithServerBidToken: (NSString *)bidToken;
+
+
 /**
  展示广告方法
 
